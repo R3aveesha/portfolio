@@ -1,19 +1,20 @@
 import React from 'react';
 import './Navbar.css'
-//import logo
-
+import logo from '../assets/logo.png'
+import {Link} from 'react-scroll'
 
 function Navbar() {
     return (
       <nav className='navbar'>
-        <img src='' alt=''></img>
+        <img src={logo} alt='Logo' className='logo'></img> 
         <div className='desktopMenu'>
-            <link className='deskTopLidtItem'>Home</link>
-            <link className='deskTopLidtItem'>Clients</link>
-            <link className='deskTopLidtItem'>About</link>
-            <link className='deskTopLidtItem'>Portfolio</link>
+            <Link></Link>
+            <Link className='deskTopListItem'>Home</Link>
+            <Link className='deskTopListItem'>Clients</Link>
+            <Link className='deskTopListItem'>About</Link>
+            <Link className='deskTopListItem'>Portfolio</Link>
         </div>
-        <button className='desktopMen uBtn'>
+        <button className='desktopMenuBtn'>
             <img src="" alt="" className='desktopMenuImg'/>
 
         </button>

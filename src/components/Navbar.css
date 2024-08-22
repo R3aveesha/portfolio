@@ -1,4 +1,4 @@
-.Navbar {
+.navbar {
     height: 5rem; /* Set a fixed height for the navbar */
     width: 100%;  /* Full width of the viewport */
     margin: 0 auto; /* Center the navbar within its container */
@@ -17,7 +17,6 @@ body{
     position:sticky;
     top :0;
     z-index: 3;
-    
 }
 .logo{
     object-fit: cover;
@@ -25,9 +24,9 @@ body{
     width: 3rem;
 }
 .deskTopListItem{
-    margin: 1rem;
+    margin: 2rem;
     cursor: pointer;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .desktopMenuImg{
     object-fit: cover;

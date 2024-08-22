@@ -14,6 +14,8 @@
     object-fit:cover;
 }
 .introContent{
+    display: flex;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
     padding: 2rem;
@@ -31,11 +33,18 @@
     color: yellow;
 }
 .introPara{
-    font-size: medium;
-    padding-right: 20px;
+    font-size: medium; /* Keep the medium font size */
+    padding-right: 20px; /* Maintain the right padding */
+    text-align: left; /* Align text to the left */
+    line-height: 1.6; /* Improve readability with increased line height */
+    max-width: 600px; /* Limit the width of the paragraph */
+    margin: 0; /* Remove default margins */
+
 }
 .hireBtn{
     border-radius: 15px;
     padding: 10px;
+
 }
+
     

@@ -1,7 +1,10 @@
 .Navbar {
-    height: Srem;
-    width: 100vw;
-    margin: 0 auto;
+    height: 5rem; /* Set a fixed height for the navbar */
+    width: 100%;  /* Full width of the viewport */
+    margin: 0 auto; /* Center the navbar within its container */
+    display: flex; /* Use Flexbox to center content */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
 }
 body{
     background-color: rgb(30, 30, 30);

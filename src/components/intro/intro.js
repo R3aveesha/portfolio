@@ -10,8 +10,8 @@ function intro() {
         <div className='introContent'>
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm <span className='introName'>Raveesha</span><br/>Website Designer</span>
-            <p className='introPara'>I am a skilled full stack developer with experiance in creating visual</p>
-            <Link><button className='btn'><img src={letterIcon} alt='hire me'/>Hire Me</button></Link>
+            <p className='introPara'>I am a skilled full stack developer with experience in creating visually engaging and user-friendly web applications. My expertise spans both front-end and back-end development, allowing me to build seamless, responsive, and efficient digital solutions. I am proficient in various programming languages and frameworks, and I excel at transforming ideas into functional and appealing interfaces that enhance user experience."</p>
+           <Link> <button className='hireBtn'>Hire me</button></Link>
         </div>
         <img src={myImage} className='bg' alt='profile'></img>
     </section>
